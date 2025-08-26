@@ -35,7 +35,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   # rxdart https://pub.flutter-io.cn/packages/rxdart
-  rxdart: ^0.28.0
+  #  rxdart: ^0.28.0
   #GetX状态管理框架 https://pub.flutter-io.cn/packages/get
   get: ^4.7.2
   #toast https://pub.flutter-io.cn/packages/fluttertoast
@@ -43,8 +43,8 @@ dependencies:
   # 网络请求库 https://github.com/flutterchina/dio
   #dio: 4.0.1
   #网络请求框架
-  retrofit: ^4.4.2
-  retrofit_generator: ^9.2.0
+  retrofit: ^4.7.2
+  retrofit_generator: ^10.0.2
   # 网络检测 https://pub.flutter-io.cn/packages/connectivity
   connectivity_plus: ^6.1.4
   # 加载SVG图片 https://pub.flutter-io.cn/packages/flutter_svg
@@ -56,7 +56,7 @@ dependencies:
   # WebView
   #webview_flutter: ^4.2.2
   #读取相册
-  image_picker: ^1.1.2
+  image_picker: ^1.2.0
   # https://github.com/flutter/plugins/tree/master/packages/url_launcher
   url_launcher: ^6.3.1
   #文件路径管理工具类
@@ -66,11 +66,11 @@ dependencies:
   #加载html标签
   #flutter_html: ^2.2.1
   #调用分享平台 https://pub.flutter-io.cn/packages/share
-  share_plus: ^11.0.0
+  share_plus: ^11.1.0
   #圖片保存到本地 https://pub.flutter-io.cn/packages/image_gallery_saver
-  image_gallery_saver: ^2.0.3
+  #image_gallery_saver: ^2.0.3
   #权限申请框架 https://pub.flutter-io.cn/packages/permission_handler
-  permission_handler: ^12.0.0+1
+  permission_handler: ^12.0.1
   #数据json解析（官方框架）
   json_annotation: ^4.9.0
   json_serializable: ^6.9.5
@@ -93,13 +93,13 @@ dependencies:
   event_bus: ^2.0.1
   #  轮播
   card_swiper: ^3.0.1
-#  #  播放器
-#  fijkplayer: ^0.11.0
+  #  #  播放器
+  #  fijkplayer: ^0.11.0
   #Widget是否可见判断
   visibility_detector: ^0.4.0+2
   #  #虚线绘制
   path_drawing: ^1.0.1
-  build_runner: ^2.5.4
+  build_runner: ^2.7.0
 
 dev_dependencies:
   flutter_test:
